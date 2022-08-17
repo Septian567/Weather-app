@@ -23,5 +23,7 @@ daftar nama aplikasi : heroku apps
 hapus aplikasi : heroku apps:destroy appname
 info aplikasi : heroku apps:info
 
-ini catatan tambahan baru
+kode branch di github bisa di update dengan komit perubahan di git dan kemudian git push git-lab main:weather-app-v1
+
+
 
