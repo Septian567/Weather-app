@@ -23,3 +23,5 @@ daftar nama aplikasi : heroku apps
 hapus aplikasi : heroku apps:destroy appname
 info aplikasi : heroku apps:info
 
+ini catatan tambahan baru
+
