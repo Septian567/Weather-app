@@ -46,6 +46,10 @@ header a {
     width: 250px;
 }
 
+.landscape {
+    width: 550px;
+}
+
 input {
     border: 1px solid #cccccc;
     padding: 8px;
@@ -60,11 +64,11 @@ button {
 }
 
 #message-1 {
-    margin-left: 31%;
+    margin-left: 10%;
     text-align: left;
 }
 
 #message-2 {
-    margin-left: 31%;
+    margin-left: 10%;
     text-align: left;
 }

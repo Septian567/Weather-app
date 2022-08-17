@@ -27,6 +27,13 @@ app.get('', (req, res) => {
     })
 })
 
+app.get('/info', (req, res) => {
+    res.render('info', {
+        title: 'Information',
+        name: 'Septian Dika Maulana'
+    })
+})
+
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Me',
@@ -41,6 +48,8 @@ app.get('/help', (req, res) => {
         name: 'Septian Dika Maulana'
     })
 })
+
+
 
 app.get('/weather', (req, res) => {
     if (!req.query.address) {
@@ -86,6 +95,14 @@ app.get('/help/*', (req, res) => {
         title: '404',
         name: 'Septian Dika Maulana',
         errorMessage: 'Help article not found.'
+    })
+})
+
+app.get('/info/*', (req, res) => {
+    res.render('404', {
+        title: '404',
+        name: 'Septian Dika Maulana',
+        errorMessage: 'Wind information not found.'
     })
 })
 
