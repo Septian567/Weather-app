@@ -1,0 +1,29 @@
+step deployment to heroku
+
+1. heroku keys:add
+2. heroku create maulana-weather-application
+
+url web : https://maulana-weather-application.herokuapp.com/
+
+url git : https://git.heroku.com/maulana-weather-application.git 
+
+3. ubah konfigurasi package.json -> scripts start untuk menjalankan aplikasi misal "node src/app.js"
+
+4. buat port untuk aplikasi node js, misal 3000
+
+5. komit git dan push projek ke github dan ke heroku (buat remote repository lalu push)
+
+6. git push heroku main
+
+7. deploy di heroku bisa di update dengan git push heroku main setelah dilakukan pengubahan kode dan di komit di git
+
+
+command lain heroku cli
+daftar nama aplikasi : heroku apps
+hapus aplikasi : heroku apps:destroy appname
+info aplikasi : heroku apps:info
+
+kode branch di github bisa di update dengan komit perubahan di git dan kemudian git push git-lab main:weather-app-v1
+
+
+
